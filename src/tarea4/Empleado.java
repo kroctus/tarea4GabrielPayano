@@ -56,6 +56,15 @@ public class Empleado {
         this.numHijos = numHijos;
     }
     
+    //To string
+
+    @Override
+    public String toString() {
+        return "Empleado{" + "nombre=" + nombre + ", apellido=" + apellido + ", numHijos=" + numHijos + '}';
+    }
+    
+    
+    
     
     
     
